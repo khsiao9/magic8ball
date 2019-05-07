@@ -1,7 +1,7 @@
 //
 //  ViewController.swift
 //  magic8ball
-//
+// TEAM NAME: ******************
 //  Created by Kaylin Hsiao 2019 on 5/7/19.
 //  Copyright © 2019 Kaylin Hsiao 2019. All rights reserved.
 //
