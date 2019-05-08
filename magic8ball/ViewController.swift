@@ -4,6 +4,7 @@
 // TEAM NAME: ******************
 //  Created by Kaylin Hsiao 2019 on 5/7/19.
 //Created by Alex Li on .....
+// Created by Jackie Chen
 //  Copyright © 2019 Kaylin Hsiao 2019. All rights reserved.
 //
 
