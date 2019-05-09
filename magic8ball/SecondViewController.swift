@@ -36,7 +36,7 @@ class SecondViewController: UIViewController
     {
         if(check == true)
         {
-            let computerChoice = Int.random(in: 1 ... 3)
+            let computerChoice = Int.random(in: 1 ... 7)
         
             var reply:String = ""
         
@@ -63,6 +63,10 @@ class SecondViewController: UIViewController
             if computerChoice == 6
             {
                 reply = "Keep working on it and you'll get there"
+            }
+            if computerChoice == 7
+            {
+                reply = "It might be best to just wait right now"
             }
             else
             {
