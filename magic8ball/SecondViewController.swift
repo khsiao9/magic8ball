@@ -15,12 +15,12 @@ class SecondViewController: UIViewController
         super.viewDidLoad()
         if(userQuestion.isEqual(""))
         {
-            check == false
+            check = false
             
         }
         else
         {
-            check == true
+            check = true
         }
         // Do any additional setup after loading the view.
     }
