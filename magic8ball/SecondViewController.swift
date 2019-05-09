@@ -10,17 +10,17 @@ import UIKit
 
 class SecondViewController: UIViewController
 {
-    let check: Bool = true
+    var check: Bool = true
     override func viewDidLoad() {
         super.viewDidLoad()
         if(userQuestion.isEqual(""))
         {
-            check == false
+            check = false
             
         }
         else
         {
-            check == true
+            check = true
         }
         // Do any additional setup after loading the view.
     }
