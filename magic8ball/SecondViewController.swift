@@ -50,15 +50,19 @@ class SecondViewController: UIViewController
             }
             if computerChoice == 3
             {
-                reply = "Sure, go ahead"
+                reply = "That's for you to decide"
             }
             if computerChoice == 4
             {
-                reply = "Sure, go ahead"
+                reply = "Go ahead, sieze the day"
             }
             if computerChoice == 5
             {
-                reply = "Sure, go ahead"
+                reply = "The future is looking bright"
+            }
+            if computerChoice == 6
+            {
+                reply = "Keep working on it and you'll get there"
             }
             else
             {
