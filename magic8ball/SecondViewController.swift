@@ -44,7 +44,7 @@ class SecondViewController: UIViewController
             }
             if computerChoice == 2
             {
-                reply = "That's"
+                reply = "That's probably not a good idea right now"
             }
             if computerChoice == 3
             {
