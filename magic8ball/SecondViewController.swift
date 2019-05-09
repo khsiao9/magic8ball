@@ -42,37 +42,28 @@ class SecondViewController: UIViewController
             {
                 reply = "Sure, go ahead"
             }
+            if computerChoice == 2
+            {
+                reply = "That's probably not a good idea right now"
+            }
+            if computerChoice == 3
+            {
+                reply = "Sure, go ahead"
+            }
+            if computerChoice == 4
+            {
+                reply = "Sure, go ahead"
+            }
+            if computerChoice == 5
+            {
+                reply = "Sure, go ahead"
+            }
             else
             {
                 reply = "Reply hazy, please try again"
             }
         }
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-   
-    
-    
     
 
 }
