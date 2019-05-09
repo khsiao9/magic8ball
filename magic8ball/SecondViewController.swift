@@ -24,6 +24,17 @@ class SecondViewController: UIViewController {
     @IBAction func responseButtonTapped(_ sender: UIButton)
     {
         let computerChoice = Int.random(in: 1 ... 3)
+        
+        var reply:String = ""
+        
+        if computerChoice == 1
+        {
+            reply = "Sure, go ahead"
+        }
+        else
+        {
+            reply = "Reply hazy, please try again"
+        }
     }
     
     
