@@ -18,28 +18,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="magic8ballImage" translatesAutoresizingMaskIntoConstraints="NO" id="SdC-gh-3JD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magic8ballImage" translatesAutoresizingMaskIntoConstraints="NO" id="SdC-gh-3JD">
                                 <rect key="frame" x="0.0" y="55" width="375" height="377"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="377" id="qIg-QY-Gbq"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipq-RG-AeL">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipq-RG-AeL">
                                 <rect key="frame" x="139" y="499" width="97" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
                                 <state key="normal" title="begin"/>
                                 <connections>
                                     <segue destination="3sz-wv-KY5" kind="show" id="hxe-i0-Hgl"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to magic 8 ball" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPR-iS-OM0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to magic 8 ball" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPR-iS-OM0">
                                 <rect key="frame" x="91" y="233" width="194" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
                                 <color key="textColor" red="0.99931217390000004" green="1" blue="0.97625693189999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="SdC-gh-3JD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-9" id="6N0-O4-MRD"/>
+                            <constraint firstItem="SdC-gh-3JD" firstAttribute="centerY" secondItem="tPR-iS-OM0" secondAttribute="centerY" id="79W-9N-Xbc"/>
+                            <constraint firstItem="SdC-gh-3JD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="CRX-fM-WUK"/>
+                            <constraint firstItem="ipq-RG-AeL" firstAttribute="top" secondItem="SdC-gh-3JD" secondAttribute="bottom" constant="67" id="H9R-vW-Ymd"/>
+                            <constraint firstItem="SdC-gh-3JD" firstAttribute="centerX" secondItem="ipq-RG-AeL" secondAttribute="centerX" id="dd3-ox-tJ7"/>
+                            <constraint firstItem="SdC-gh-3JD" firstAttribute="centerX" secondItem="tPR-iS-OM0" secondAttribute="centerX" id="jg3-qu-1xO"/>
+                            <constraint firstItem="SdC-gh-3JD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="r79-Hx-HUj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="GjQ-o5-lFe"/>
