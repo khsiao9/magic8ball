@@ -22,7 +22,7 @@ class SecondViewController: UIViewController
         {
             check = true
         }
-        // Do any additional setup after loading the view.
+        
     }
     
     
