@@ -33,7 +33,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to magic 8 ball" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPR-iS-OM0">
-                                <rect key="frame" x="91" y="233" width="194" height="20"/>
+                                <rect key="frame" x="90.5" y="233.5" width="194" height="20"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
                                 <color key="textColor" red="0.99931217390000004" green="1" blue="0.97625693189999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -57,10 +57,10 @@
             </objects>
             <point key="canvasLocation" x="943" y="133"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="E3q-ef-bpu">
             <objects>
-                <viewController id="3sz-wv-KY5" sceneMemberID="viewController">
+                <viewController id="3sz-wv-KY5" customClass="SecondViewController" customModule="magic8ball" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xoe-TH-oID">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
