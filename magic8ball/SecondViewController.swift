@@ -16,7 +16,10 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func responseButtonTapped(_ sender: UIButton) {
+        let computerChoice = Int.random(in: 1 ... 3)
+    }
+    
     /*
     // MARK: - Navigation
 
