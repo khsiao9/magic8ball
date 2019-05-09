@@ -8,32 +8,44 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
-
+class SecondViewController: UIViewController
+{
+    let check: Bool = true
     override func viewDidLoad() {
         super.viewDidLoad()
         if(userQuestion.isEqual(""))
         {
+            check == false
             
-            
+        }
+        else
+        {
+            check == true
         }
         // Do any additional setup after loading the view.
     }
     
+    
+    
+    
+    
     @IBOutlet weak var userQuestion: UITextView!
     @IBAction func responseButtonTapped(_ sender: UIButton)
     {
-        let computerChoice = Int.random(in: 1 ... 3)
-        
-        var reply:String = ""
-        
-        if computerChoice == 1
+        if(check == true)
         {
-            reply = "Sure, go ahead"
-        }
-        else
-        {
-            reply = "Reply hazy, please try again"
+            let computerChoice = Int.random(in: 1 ... 3)
+        
+            var reply:String = ""
+        
+            if computerChoice == 1
+            {
+                reply = "Sure, go ahead"
+            }
+            else
+            {
+                reply = "Reply hazy, please try again"
+            }
         }
     }
     
