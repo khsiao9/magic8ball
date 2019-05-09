@@ -70,7 +70,7 @@ class SecondViewController: UIViewController
             }
             else
             {
-                reply = "Reply hazy, please try again"
+                reply = "Try again later"
             }
         }
     }
