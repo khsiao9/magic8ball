@@ -36,6 +36,8 @@ class SecondViewController: UIViewController
     {
         if(check == true)
         {
+            
+            
             let computerChoice = Int.random(in: 1 ... 7)
         
             var reply:String = ""
@@ -72,6 +74,15 @@ class SecondViewController: UIViewController
             {
                 reply = "Reply hazy, please try again"
             }
+            
+            let alert = UIAlertController(title: "Response", message: "\(reply)", preferredStyle: .alert)
+            
+            let addAction = UIAlertAction(title: "OK", style: .default) { (action) in
+            }
+            alert.addAction(addAction)
+            
+            present(alert, animated: false, completion: nil)
+            
         }
     }
     
