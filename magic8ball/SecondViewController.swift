@@ -16,6 +16,7 @@ class SecondViewController: UIViewController
         if(userQuestion.isEqual(""))
         {
             check = false
+            directionLabel.text = "Please enter a question first"
             
         }
         else
@@ -28,6 +29,7 @@ class SecondViewController: UIViewController
     
     
     
+    @IBOutlet weak var directionLabel: UILabel!
     
     @IBOutlet weak var userQuestion: UITextView!
     @IBAction func responseButtonTapped(_ sender: UIButton)

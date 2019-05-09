@@ -93,6 +93,7 @@
                         <viewLayoutGuide key="safeArea" id="q8i-gL-MYf"/>
                     </view>
                     <connections>
+                        <outlet property="directionLabel" destination="oXb-dl-UdA" id="7Vc-K2-tHP"/>
                         <outlet property="userQuestion" destination="eMG-Ib-EFs" id="J7Y-81-JtG"/>
                     </connections>
                 </viewController>
