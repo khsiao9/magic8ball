@@ -73,6 +73,10 @@ class SecondViewController: UIViewController
             {
                 reply = "If it doesn't work the first time, try again"
             }
+            if computerChoice == 9
+            {
+                reply = "Remember it's not the end of the world"
+            }
             
             let alert = UIAlertController(title: "Response", message: "\(reply)", preferredStyle: .alert)
             
