@@ -11,9 +11,10 @@ import UIKit
 class SecondViewController: UIViewController
 {
     var check: Bool = true
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        if(userQuestion.isEqual(""))
+        if(userQuestion.isEqual("")) //check to make sure a question is entered before they press the button
         {
             check = false
             directionLabel.text = "Please enter a question first"
@@ -27,14 +28,12 @@ class SecondViewController: UIViewController
     }
     
     
-    
-    
     @IBOutlet weak var directionLabel: UILabel!
     
     @IBOutlet weak var userQuestion: UITextView!
     @IBAction func responseButtonTapped(_ sender: UIButton)
     {
-        if(check == true)
+        if(check == true) //randomize the responses
         {
             
             
