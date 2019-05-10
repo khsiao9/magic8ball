@@ -43,7 +43,6 @@ class SecondViewController: UIViewController
         
             switch computerChoice
             {
-            default: reply = "Try again later"
             case 1:  reply = "Sure, go ahead"
             case 2:  reply = "That's probably not a good idea"
             case 3:  reply = "That's for you to decide"
@@ -53,6 +52,9 @@ class SecondViewController: UIViewController
             case 7:  reply = "It might be best to just wait right now"
             case 8:  reply = "If it doesn't work the first time, try again"
             case 9:  reply = "Remember it's not the end of the world"
+                
+                
+            default: reply = "Try again later"
             }
             
             let alert = UIAlertController(title: "Response", message: "\(reply)", preferredStyle: .alert)
