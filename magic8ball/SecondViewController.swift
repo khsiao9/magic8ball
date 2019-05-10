@@ -41,41 +41,18 @@ class SecondViewController: UIViewController
         
             var reply:String = ""
         
-            if computerChoice == 1
+            switch computerChoice
             {
-                reply = "Sure, go ahead"
-            }
-            if computerChoice == 2
-            {
-                reply = "That's probably not a good idea"
-            }
-            if computerChoice == 3
-            {
-                reply = "That's for you to decide"
-            }
-            if computerChoice == 4
-            {
-                reply = "Go ahead, sieze the day"
-            }
-            if computerChoice == 5
-            {
-                reply = "The future is looking bright"
-            }
-            if computerChoice == 6
-            {
-                reply = "Keep working on it and you'll get there"
-            }
-            if computerChoice == 7
-            {
-                reply = "It might be best to just wait right now"
-            }
-            if computerChoice == 8
-            {
-                reply = "If it doesn't work the first time, try again"
-            }
-            if computerChoice == 9
-            {
-                reply = "Remember it's not the end of the world"
+            default: reply = "Try again later"
+            case 1:  reply = "Sure, go ahead"
+            case 2:  reply = "That's probably not a good idea"
+            case 3:  reply = "That's for you to decide"
+            case 4:  reply = "Go ahead, sieze the day"
+            case 5:  reply = "The future is looking bright"
+            case 6:  reply = "Keep working on it and you'll get there"
+            case 7:  reply = "It might be best to just wait right now"
+            case 8:  reply = "If it doesn't work the first time, try again"
+            case 9:  reply = "Remember it's not the end of the world"
             }
             
             let alert = UIAlertController(title: "Response", message: "\(reply)", preferredStyle: .alert)
@@ -85,7 +62,7 @@ class SecondViewController: UIViewController
             alert.addAction(addAction)
             
             present(alert, animated: false, completion: nil)
-            
+        
         }
         else
         {
