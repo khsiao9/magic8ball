@@ -84,6 +84,10 @@ class SecondViewController: UIViewController
             present(alert, animated: false, completion: nil)
             
         }
+        else
+        {
+            directionLabel.text = "Please enter a question first"
+        }
     }
     
 
