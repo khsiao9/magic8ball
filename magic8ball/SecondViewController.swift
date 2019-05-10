@@ -38,7 +38,7 @@ class SecondViewController: UIViewController
         {
             
             
-            let computerChoice = Int.random(in: 1 ... 7)
+            let computerChoice = Int.random(in: 1 ... 8)
         
             var reply:String = ""
         
@@ -48,7 +48,7 @@ class SecondViewController: UIViewController
             }
             if computerChoice == 2
             {
-                reply = "That's probably not a good idea right now"
+                reply = "That's probably not a good idea"
             }
             if computerChoice == 3
             {
@@ -70,9 +70,9 @@ class SecondViewController: UIViewController
             {
                 reply = "It might be best to just wait right now"
             }
-            else
+            if computerChoice == 8
             {
-                reply = "Try again later"
+                reply = "If it doesn't work the first time, try again"
             }
             
             let alert = UIAlertController(title: "Response", message: "\(reply)", preferredStyle: .alert)
