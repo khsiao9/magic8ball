@@ -37,7 +37,7 @@ class SecondViewController: UIViewController
         {
             
             
-            let computerChoice = Int.random(in: 1 ... 8)
+            let computerChoice = Int.random(in: 1 ... 10)
         
             var reply:String = ""
         
@@ -52,6 +52,9 @@ class SecondViewController: UIViewController
             case 7:  reply = "It might be best to just wait right now"
             case 8:  reply = "If it doesn't work the first time, try again"
             case 9:  reply = "Remember it's not the end of the world"
+            case 10:  reply = "Sit back and think more about it first"
+            case 11:  reply = "Just push through it"
+            case 12:  reply = "Brilliant!"
                 
                 
             default: reply = "Try again later"
