@@ -69,7 +69,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eMG-Ib-EFs">
                                 <rect key="frame" x="29" y="162" width="317" height="233"/>
-                                <color key="backgroundColor" red="0.6604421586" green="0.23804747779999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.8703858122" green="0.86419812870000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="233" id="RhK-I0-nyo"/>
                                 </constraints>
