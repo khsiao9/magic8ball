@@ -5,7 +5,8 @@
 //  Created by Kaylin Hsiao 2019 on 5/7/19.
 //  Created by Alex Li on
 //  Created by Jackie Chen
-//  Copyright © 2019 Kaylin Hsiao 2019. All rights reserved.
+//  Copyright © 2019 Kaylin Hsiao
+//  Svastik Patel 2019. All rights reserved.
 //
 
 import UIKit
