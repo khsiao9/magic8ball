@@ -35,7 +35,7 @@ class SecondViewController: UIViewController
     @IBOutlet weak var userQuestion: UITextView!
     @IBAction func responseButtonTapped(_ sender: UIButton)
     {
-        if(check == true) //randomize the responses
+        if(userQuestion.text != "") //randomize the responses
         {
             
             
