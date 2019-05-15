@@ -39,7 +39,7 @@ class SecondViewController: UIViewController
         {
             
             
-            let computerChoice = Int.random(in: 1 ... 10)
+            let computerChoice = Int.random(in: 1 ... 12)
         
             var reply:String = ""
         
