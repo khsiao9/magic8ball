@@ -14,10 +14,12 @@ class SecondViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        if(userQuestion.isEqual("")) //check to make sure a question is entered before they press the button
+        if(userQuestion.text == "") //check to make sure a question is entered before they press the button
         {
             check = false
             directionLabel.text = "Please enter a question first"
+
+            
             
         }
         else
@@ -71,7 +73,11 @@ class SecondViewController: UIViewController
         }
         else
         {
-            directionLabel.text = "Please enter a question first"
+            //directionLabel.text = "Please enter a question first"
+            let alertController = UIAlertController(title: "Try again", message: "Please ask a question.", preferredStyle: .alert)
+            let alertAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+            alertController.addAction(alertAction)
+            present(alertController, animated: true, completion: nil)
         }
     }
     
